@@ -1,0 +1,2 @@
+import sys
+sys.argv：接收Python解释器后面的所有参数。返回的数据类型是列表。

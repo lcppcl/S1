@@ -1,0 +1,73 @@
+变量取名：
+    1、显示
+    2、num_of_lcp = lcp
+    3、驼峰命名
+    4、数字不能在开头，特殊字符不能有（！，~）
+    5、保留关键字
+    a=3
+    b=a
+    a=5
+    最后：a为5，b为3
+    看内存地址：id(变量名)  是Python的内存地址
+
+
+用户交互：input()
+    变量名 = input('这里可以写一些提示')    raw_input()是2.7的
+    eval()                                  input()是2.7版本的
+
+
+条件输入和缩进:（4个空格）
+if...elif...else:
+-------------------------------------
+    sex = input("input your gender:")
+    if sex == "girl":
+        print("I would like to have a little monkey")
+    elif sex == "man":
+        print("Going to homosexual!.....")
+    else:
+        print("pervert")
+    同一级别，强制缩进，判断作用域
+    input()接收的默认都是字符串
+    eval()接收默认是输入数据的类型（字符串就是字符串，数字就是数字）
+
+while 条件:
+    .....
+else:
+    .....是上面条件不满足才执行这句，否则不执行
+-----------------------------------------
+    lucky_number = 9
+    lucky = -1
+    while lucky_number != lucky:
+        lucky = int(input("Please give your lucky number"))
+        if lucky < lucky_number:
+            print("your number is smaller")
+        elif lucky > lucky_number:
+            print("your number is bigger")
+    print("you are lucky man!")
+
+-------------------------------------------------
+    次数限制：
+    lucky_num = 12
+    guess_count=0
+    while guess_count < 3:
+        print("guess count:",guess_count)
+        lucky = int(input("Please give your lucky number"))
+        if lucky>lucky_num:
+            print("the real number is smaller")
+        elif lucky<lucky_num:
+            print("the real number is bigger")
+        else:
+            print("Bimgo!")
+            break
+        guess_count += 1
+    else:
+        print("Too many retry!")
+
+循环： break
+      continue
+      pass
+      exit
+      exit
+
+包含   in
+       __contain__

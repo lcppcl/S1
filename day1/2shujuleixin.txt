@@ -1,0 +1,63 @@
+基本数据类型：
+    int，float，
+    布尔值：1，0，true，false
+    字符串："......"  或 '''...这里面自己限定格式...''' 或 '......'单引号和双引号没有区别
+            格式化：print("information %s:name" %(name)   一共只有一个空间。
+            用+拼接会因为每个变量都会申请一个空间
+            %s：字符串
+            %d：数字
+            %f：浮点
+            strip()：把输入的字符串两边的空格去掉，也可以去掉指定的字符。strip("要去掉的指定字符")
+            split()：分割
+            len(obj)：长度
+            obj[i]：索引
+            obj[a:b:c]：切片
+   列表：可以存多个不同数据类型的信息 dir(listName)：查看列表的方法
+        创建列表：list = [1,2]  list = list(1,2)
+        可以根据索引取值
+        append('value')：在列表后面追加一个值
+        index('value')：查找某个值的下标
+        count('value')：计算某个值的个数
+        insert(num,'value')：在指定位置插入值
+        pop()：取出最后一个值
+        len():长度
+        remove('value')：：删除指定的所有值
+        reverse()：反转列表
+        sort()：排序，针对数字
+        extend('vale')：在列表后面添加值
+        list_a + list_b：把b列表的值添加在a的后面，而a的值不变，组成一个新的列表
+        切片：list[a:b:c]：从a开始在b之前结束，步长为c
+        判断元素是否在列表中：value in list，在返回True，没有返回False
+
+   元祖：（）元祖的元素不可修改，元素可以是个字典
+         元祖的元素的元素可修改
+            可以把列表转换成元祖tuple(listName)
+            可以把元祖转换成列表list(tupleName)
+            type('value')：查看类型
+   /:直接相处
+   //:取整
+   %:取余
+   **：立方
+   &：同为1才为1
+   |：有1就为1
+   ^：相同为0，不同为1
+   <<：左移，就是乘以2
+   >>：右移，就是除以2
+   and：同为真就是真
+   or：只要一个真就是真
+   not：真假相反
+   in：成员运算符，判断是否在元祖或者列表里面  为真返回true
+   not in：成员运算符，判断是否在元祖或者列表里面  为真返回true
+   is：判断两个标识符是不是引用同一个对象type(3) is int   为真返回true
+   is not：为真返回true
+
+
+
+
+
+    字典：d={'key':'value'}
+        新增：d[key]=value
+        删除：del d[key]  del(d[key])
+        键：keys    for k in dic.keys
+        值：values    for v in dic.values
+        键值对：items   for k,v in dic.items
