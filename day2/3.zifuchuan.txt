@@ -1,0 +1,2 @@
+dir(value)：显示类的的所有成员
+vars(value)：显示成员和返回值

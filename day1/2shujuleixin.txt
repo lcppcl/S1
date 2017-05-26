@@ -14,7 +14,7 @@
             obj[i]：索引
             obj[a:b:c]：切片
    列表：可以存多个不同数据类型的信息 dir(listName)：查看列表的方法
-        创建列表：list = [1,2]  list = list(1,2)
+        创建列表：list = [1,2]  list = list((1,2))
         可以根据索引取值
         append('value')：在列表后面追加一个值
         index('value')：查找某个值的下标
