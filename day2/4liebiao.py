@@ -1,13 +1,21 @@
+li = [1, 2, 3]
 li = list([1, 2, 3])
 li = list((1, 2, 3))  #两种方式创建列表对象
 
+#列表是有序的
 li.append(5)  #列表的尾部添加一个元素
 print(li)
 
 
-li.clear()  #清楚列表
+li.clear()  #清除列表
 print(li)
 
+li = [1, 2, 3]
+li[1] = 3  #更新列表的某个值
+print(li)
+
+del li[1]  #删除列表的某个值
+print(li)
 
 li.extend([11, 33])   #扩展列表
 print(li)

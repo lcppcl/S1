@@ -1,3 +1,4 @@
+#无序
 dic = {'k1': 'v2'}
 dic = dict(k1='v2', k2='v2')
 dic.fromkeys(['k1'], 'v2')
