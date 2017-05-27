@@ -12,7 +12,7 @@
 
 
 用户交互：input()
-    变量名 = input('这里可以写一些提示')    raw_input()是2.7的
+    变量名 = input('这里可以写一些提示')       raw_input()是2.7的
     eval()                                  input()是2.7版本的
 
 
