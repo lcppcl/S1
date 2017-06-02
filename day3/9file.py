@@ -11,3 +11,9 @@ print(f.tell())  #tell按字节读，查看当前指针位置
 print(ret)
 f.truncate()  #读取当前指针前面的数,并放到原文件
 f.close()
+
+
+#文件读取最好的方式
+f = open('test.log', 'w', encoding='utf-8')
+for line in f:
+    print(line)
