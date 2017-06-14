@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lcp>
+    <country name="chengdu"></country>  #根结点
+    <country name="meisan">
+        <rank update="yes">89</rank>
+        <year>2017</year>
+        <neighbor name="xichang" direction="n"/>
+    </country>
+    <country name="meisan2">
+        <rank update="yes">55</rank>
+        <year>2017</year>
+        <neighbor name="xichang" direction="n"/>
+    </country>
+</lcp>
